@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".class").hide()
+            })
+        })
+            // $(document).ready(function(){
+            //     $("button").click(function(){
+            //         $(".demo1").hide()
+            //     })
+            // })
+            $(document).ready(function(){
+            $("h1").hover(function(){
+                $(this).css(
+                    "color", "blue"
+                );
+            });
+        })
+    </script>
+</head>
+<body>
+    <h1>kuch bhi</h1>
+    <p class="class">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, optio.</p>
+    <p class="class">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, optio.</p>
+    <p>Lorem ipsum dolor sit, amet </p>
+    <button>please click on me</button>
+</body>
+</html>

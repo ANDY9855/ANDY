@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    div{
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        position: relative;
+        animation: animated;
+        animation-duration: 5s;
+        animation-delay: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        border-radius: 100px;
+    }
+    .div1{
+        width: 1350px;
+        height: 8px;
+        background-color: black;
+        position: relative;
+        animation: animate;
+        animation-duration: 5s;
+        animation-delay: 1s;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+        animation-play-state: running;
+        border-radius: 100px;
+    }
+    @keyframes animate{
+        form{width: 1350px;}
+        to{width: 0px;}
+        from{background-color: green;}
+        to{background-color: red;}
+        0%{background-color: white;left: 0px;top: 0px; }
+        25%{background-color: brown;left: 200px;top: 0px;}
+        50%{background-color: rgb(235, 164, 176);left: 200px;top: 200px;}
+        75%{background-color: purple;left: 0px;top: 200px;}
+        100%{background-color: blue;left: 0px;top: 0px;}
+       
+    }
+    @keyframes animated {
+        from{left: 0px;}
+        to{left: 200px;}
+        from{background-color: green;}
+        to{background-color: red;}
+        0%{background-color: white;left: 0px;top: 0px; }
+        25%{background-color: brown;left: 200px;top: 0px;}
+        50%{background-color: rgb(235, 164, 176);left: 200px;top: 200px;}
+        75%{background-color: purple;left: 0px;top: 200px;}
+        100%{background-color: blue;left: 0px;top: 0px;}
+       
+  
+    }
+    </style>
+</head>
+<body>
+    <h1>Animation in css</h1>
+    <div class="div1"></div>
+    <br>
+    <div></div>
+    
+</body>
+</html>

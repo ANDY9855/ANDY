@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fadein</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $(".div1").fadeIn(1000);
+                $(".div2").fadeIn(10000);
+                $(".div3").fadeIn(16000);
+            });
+        });
+    </script>
+    <style>
+        .div1, .div2, .div3 {
+            width: 80px;
+            height: 89px;
+            display: none;
+        }
+        .div1 {
+            background-color: purple;
+        }
+        .div2 {
+            background-color: orange;
+        }
+        .div3 {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <button>Click me to fade in the divs</button>
+</body>
+</html>
+

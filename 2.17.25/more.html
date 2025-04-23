@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div:active{
+            width: 0px;
+            /* height: 400px;*/}
+        div{
+            height: 8px;
+            width: 1350px;
+            background-color: purple;
+            transition-property: height,width ;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-delay: 1s;
+            border-radius: 10000px;
+        }
+        div:hover{
+            background-color: blue;
+            width: 0px;
+        }
+        .div1:active{
+            width: 500px;
+            height: 500px;
+        }
+        .div1{
+            height: 100px;
+            width: 100px;
+            background-color: orange;
+            transition-property: height,width ;
+            transition-duration: 2s;
+            transition-timing-function: linear;
+            transition-delay: 1s;
+            border-radius: 10000px;
+        }
+        .div1:hover{
+            background-color: pink;
+            /* height: 400px; */
+        }
+        .moiz:active{
+            width: 1350px;
+            /* height: 400px;*/}
+        .moiz{
+            height: 8px;
+            width: 10px;
+            background-color: purple;
+            transition-property: height,width ;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-delay: 1s;
+            border-radius: 10000px;
+        }
+        .moiz:hover{
+            background-color: blue;
+            width: 1350px;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <br>
+    <div class="div1"></div>
+    <br>
+    <div class="moiz"></div>
+</body>
+</html>

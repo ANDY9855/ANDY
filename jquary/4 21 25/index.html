@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fadeTo</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+            $(".andy").click(function(){
+                $(".div1").fadeTo('2',0.1);
+                $(".div2").fadeTo('2',1);
+                $(".div3").fadeTo('2',1);
+            });
+        });
+    </script>
+    <style>
+        .div1, .div2, .div3 {
+            width: 80px;
+            height: 89px;
+            display: none;
+            text-align: center;
+        }
+        .div1 {
+            background-color: purple;
+        }
+        .div2 {
+            background-color: orange;
+        }
+        .div3 {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1"></div>
+    <div class="div2"></div>
+    <div class="div3"></div>
+    <button class="andy">Click me😉😉</button>
+    <button class="andy">Click me😉😉</button>
+</body>
+</html>
+

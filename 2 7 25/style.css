@@ -1,0 +1,12 @@
+p{
+    background-color: antiquewhite;
+}
+img{
+    float: right;
+    width: 150px;
+    height: 150px;
+    /* position:static */
+    /* position:fixed */
+    /* position:sticky */
+    position:relative
+}

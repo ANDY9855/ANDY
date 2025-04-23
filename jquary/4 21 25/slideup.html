@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slideup</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script>
+        // $(document).ready(function(){
+        //     $(".andy").click(function(){
+        //         $("#andy1").slideUp('5000');
+        //         // $("#andy1").slideDown('2');
+        //     });
+        // });
+        $(document).ready(function(){
+            $(".andy").click(function(){
+                $("#andy1").slideToggle('5000');
+                // $("#andy1").slideDown('2');
+            });
+        });
+    </script>
+    <!-- <style>
+        .div1, .div2, .div3 {
+            width: 80px;
+            height: 89px;
+            display: none;
+            text-align: center;
+        }
+        .div1 {
+            background-color: purple;
+        }
+        .div2 {
+            background-color: orange;
+        }
+        .div3 {
+            background-color: green;
+        }
+    </style> -->
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p id="andy1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ad sed magnam et, eaque ratione nobis harum iste nihil error, omnis officiis itaque cumque quasi necessitatibus ipsam. Explicabo, tempora facere!</p>
+    <button class="andy">slide up😉😉</button>
+    <button class="andy">slide down😉😉</button>
+</body>
+</html>
+

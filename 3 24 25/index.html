@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="ali">ali is straigh</h1>
+    <p class="description">this is my first para</p>
+    <p class="description">this is my second para</p>
+    <button onclick="changecontent()">gender changer</button>
+
+    <script>
+        function changecontent(){
+            document.getElementsById("main").innerHTML = "document object module"
+            document.getElementsByClassName("description")[0].innerHTML = "first para"
+            document.getElementsByClassName("description")[1].innerHTML = "second para"
+        }
+    </script>
+</body>
+</html>
